@@ -1,0 +1,4 @@
+HTML has different "tags" like tabs
+- headers
+- <tr> = stands for table ROW
+- <td> = stands for table COLUMN
