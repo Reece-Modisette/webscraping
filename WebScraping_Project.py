@@ -87,7 +87,7 @@ for row in table_rows[1:6]:
 
     #Twilio Text message "if" code
     #----------------------------------------------------------------
-    if name == 'Bitcoin'or name == 'USD Coin':
+    if name == 'Bitcoin'or name == 'Ethereum':
         if abs(yesterday_price - price_cur) >5:
             change = abs(yesterday_price - price_cur)
             mytext = name + " price changed by: " +str(change)+". Go check it out while the gettin's still good!"
